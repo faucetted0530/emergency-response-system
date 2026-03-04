@@ -1,73 +1,75 @@
-🚨 Emergency Response System (ERS)
-📌 Overview
+# 🚨 Emergency Response System (ERS)
 
-The Emergency Response System (ERS) is a full-stack web application designed to streamline emergency reporting, dispatch coordination, and real-time incident tracking between civilians and emergency responders.
+<p align="center">
+  A Full-Stack Platform for Real-Time Emergency Reporting & Dispatch Coordination
+</p>
 
-The system provides a centralized digital platform that improves communication, reduces response time, and enhances operational efficiency for emergency services.
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React-blue" />
+  <img src="https://img.shields.io/badge/Backend-Node.js-green" />
+  <img src="https://img.shields.io/badge/API-Express-lightgrey" />
+  <img src="https://img.shields.io/badge/Database-MongoDB-brightgreen" />
+  <img src="https://img.shields.io/badge/Auth-JWT-orange" />
+  <img src="https://img.shields.io/badge/Status-In%20Development-yellow" />
+</p>
 
-🎯 Problem Statement
+---
 
-Traditional emergency response coordination systems can experience:
+## 📌 Overview
 
-Delays in dispatch communication
+The **Emergency Response System (ERS)** is a full-stack web application designed to modernize emergency communication and incident coordination.
 
-Limited visibility into active incidents
+ERS enables:
 
-Inefficient responder allocation
+- 🚨 Real-time emergency reporting  
+- 📍 Centralized incident tracking  
+- 👮 Dispatcher assignment management  
+- 🚑 Responder status updates  
+- 🔐 Secure role-based authentication  
 
-Lack of real-time status updates
+The system improves response efficiency, communication transparency, and resource allocation accuracy.
 
-ERS addresses these issues by providing a structured, role-based platform for emergency reporting and dispatch management.
+---
 
-👥 User Roles
+## 🎯 Problem Statement
 
-The system supports multiple user types:
+Traditional emergency coordination systems may suffer from:
 
-Civilian Users – Submit emergency reports and track request status
+- Delayed dispatch communication  
+- Fragmented tracking systems  
+- Inefficient responder allocation  
+- Limited real-time visibility  
 
-Dispatch Operators – Monitor incoming incidents and assign responders
+ERS provides a centralized digital solution to optimize emergency workflow from report submission to resolution.
 
-Responders (Police, Fire, EMS) – Receive assignments and update incident status
+---
 
-Administrators – Manage users, system settings, and oversight operations
+## 👥 User Roles
 
-🚨 Core Features
-1️⃣ Emergency Incident Submission
+| Role | Capabilities |
+|------|-------------|
+| 👤 Civilian | Submit and track emergency reports |
+| 🎧 Dispatcher | View, prioritize, and assign incidents |
+| 🚓 Responder | Receive assignments and update status |
+| 🛠 Administrator | Manage users and system configurations |
 
-Location (GPS or manual entry)
+---
 
-Emergency type (Fire, Medical, Crime, Other)
+## 🚀 Core Features
 
-Description and severity level
+### 1️⃣ Emergency Incident Submission
+- Location input (GPS/manual)
+- Emergency type classification
+- Severity level tagging
+- Timestamp generation
 
-Timestamp generation
+### 2️⃣ Dispatch Management Dashboard
+- Active incident monitoring
+- Responder assignment
+- Priority adjustments
+- Incident closure controls
 
-2️⃣ Dispatch Management
+### 3️⃣ Incident Lifecycle Tracking
 
-View all active incidents
-
-Assign responders
-
-Update incident priority
-
-Close or archive incidents
-
-3️⃣ Real-Time Status Tracking
-
-Incident lifecycle states:
-
-Pending
-
-Assigned
-
-In Progress
-
-Resolved
-
-Closed
-
-4️⃣ Authentication & Authorization
-
-Secure login and registration
-
-Role-based access control
+```text
+Pending → Assigned → In Progress → Resolved → Closed
